@@ -1,0 +1,12 @@
+.c-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 9rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+}
+
+.c-header__logo {
+    height: 3rem;
+}
