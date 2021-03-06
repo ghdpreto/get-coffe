@@ -1,0 +1,33 @@
+.c-content {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+}
+
+.c-content__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.c-content__title {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 700;
+    margin-bottom: 6rem;
+}
+
+.c-content__social-net {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-content__social-item {
+    margin: 1rem;
+}
