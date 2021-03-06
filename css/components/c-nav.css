@@ -1,0 +1,15 @@
+.c-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+
+.c-nav__item {
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--color-dark);
+    font-weight: 600;
+    cursor: pointer;
+} 
