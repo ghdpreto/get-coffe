@@ -1,0 +1,11 @@
+html, body {
+    font-size: 10px;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    color: var(--color-dark);
+}
+
+a {
+    text-decoration: none;
+}
