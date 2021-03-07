@@ -4,6 +4,10 @@
 
 @media(min-width: 1024px) {
     .c-illustration {
-        display: initial;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 100%;
     }
 }
