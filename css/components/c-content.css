@@ -1,6 +1,5 @@
 .c-content {
     height: 100%;
-    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,4 +29,30 @@
 }
 .c-content__social-item {
     margin: 1rem;
+}
+.c-content__social-item:first-child {
+    margin-left: 0;
+}
+
+
+@media(min-width: 1024px) {
+    .c-content {
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .c-content__wrapper {
+        display: flex;
+        align-items: flex-start;
+    }
+    .c-content__title {
+        width: 550px;
+        font-size: 2.9rem;
+        line-height: 5rem;
+        font-weight: 700;
+        text-align: left;
+    }
+    .c-content__social-net {
+        margin-top: 2rem;
+        align-items: flex-start;
+    }
 }

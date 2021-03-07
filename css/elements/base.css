@@ -1,5 +1,5 @@
 html, body {
-    font-size: 10px;
+    font-size: 65,5%;
     height: 100vh;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
@@ -8,4 +8,11 @@ html, body {
 
 a {
     text-decoration: none;
+}
+
+
+@media(min-width: 1024px) {
+    html,body {
+        font-size: 80%;
+    }
 }
